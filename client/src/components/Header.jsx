@@ -18,6 +18,7 @@ const Header = () => {
           <br className="max-sm:hidden" /> No sign-up required. No credit card
           required.
         </p>
+        
         <div>
           <input type="file" name="" id="upload1" hidden />
           <label

@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Result from "./pages/Result";
 import BuyCredit from "./pages/BuyCredit";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
         <Route path="/buy" element={<BuyCredit />} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
+      <Footer />
     </div>
   );
 };
