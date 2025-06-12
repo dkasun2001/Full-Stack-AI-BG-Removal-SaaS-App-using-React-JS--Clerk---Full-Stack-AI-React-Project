@@ -1,0 +1,95 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+dist-ssr/
+.out/
+.next/
+.next-static/
+coverage/
+tmp/
+temp/
+.cache/
+.nyc_output/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# Misc
+*.local
+*.tgz
+*.pem
+
+# Test output
+junit.xml
+test-results.xml
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Windows system files
+ehthumbs.db
+Desktop.ini
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache/
+
+# SvelteKit build
+.svelte-kit/
+
+# Next.js build
+.next/
+
+# Remix build
+.build/
+
+# Storybook build
+storybook-static/
+
+# VS Code settings
+.history/
