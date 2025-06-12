@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
-  clerkID: { typeof: String, required: true, unique: true },
+  clerkID: { type: String, required: true, unique: true },
   email: { type: String, required: true, unique: true },
   photo: { type: String, required: true },
   firstName: { type: String },
@@ -9,6 +9,6 @@ const userSchema = new mongoose.Schema({
   creditBalance: { type: Number, default: 5 },
 });
 
-const userModel = mongoose.model.user || mongoose.model("user", userSchema);
+const userModel = mongoose.models.user || mongoose.model("user", userSchema);
 
 export default userModel;
